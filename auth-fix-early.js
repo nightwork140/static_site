@@ -29,8 +29,8 @@
       return;
     }
     
-    // Fallback: usa replit.app predefinito
-    API_URL = 'https://125ec53e-b5ad-466d-93bb-d52e653062de-00-1j7uejkdf73fw.janeway.replit.dev';
+    // Fallback: usa URL Janeway Replit predefinito con porta specifica
+    API_URL = 'https://125ec53e-b5ad-466d-93bb-d52e653062de-00-1j7uejkdf73fw.janeway.replit.dev:3000';
     localStorage.setItem('apiUrl', API_URL);
     if (DEBUG) console.log('API-REDIRECT-EARLY: Inizializzato API URL default:', API_URL);
   }
